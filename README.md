@@ -33,4 +33,4 @@ El logo de Oasis se puede encontrar en [este enlace](https://drive.google.com/dr
 
 Cada contribuidor debe trabajar en su propia rama de GitHub. Por favor, asegúrate de mantener tu rama actualizada con los cambios en `main`.
 
-
+Una vez que hayas terminado una característica o una serie de características, debes hacer un **pull request** a `main`. Esto permitirá que otros miembros del equipo revisen tu trabajo y lo integren en la rama principal del proyecto.
