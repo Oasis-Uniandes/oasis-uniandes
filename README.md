@@ -1,6 +1,4 @@
-# Proyecto Oasis Uniandes
-
-Bienvenido al repositorio del proyecto Oasis Uniandes. Este proyecto fue creado con React y utiliza TypeScript, Tailwind CSS y DaisyUI para el desarrollo de la interfaz de usuario.
+# Web Oasis Uniandes
 
 ## Configuración del Proyecto
 
