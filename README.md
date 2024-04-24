@@ -26,8 +26,13 @@ El proyecto está configurado para desplegarse con `gh-pages`. Para desplegar el
 
 El diseño del proyecto se basa en un mockup diseñado por Maria Camila Jaramillo y Shadith en Figma. Puedes ver el mockup [aquí](https://www.figma.com/file/gAoe7cD2NIwZwWRKsbqakN/Mockups-Main-Page?type=design&node-id=0%3A1&mode=design&t=QL5VNoh5zmQDQvG1-1).
 
-
 El logo de Oasis se puede encontrar en [este enlace](https://drive.google.com/drive/folders/1m0yALvcsRn-a9GGcfh1rZdxb-kL5lmdv?usp=drive_link).
+
+### Paleta de Colores
+
+- **#719dee**: Azul claro
+- **#1d2b36**: Azul oscuro
+- **#21ffcc**: Solo usar en el degradado.
 
 ## Contribución
 
