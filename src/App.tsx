@@ -1,6 +1,6 @@
 function App() {
   return (
-    <p>Oasis</p>
+    <p>Oasis Uniandes</p>
   );
 }
 
