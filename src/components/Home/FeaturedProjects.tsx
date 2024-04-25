@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectList: React.FC = () => {
+const FeaturedProjects: React.FC = () => {
     return (
         <div>
             <h1>Projects</h1>
@@ -9,4 +9,4 @@ const ProjectList: React.FC = () => {
     );
 };
 
-export default ProjectList;
+export default FeaturedProjects;

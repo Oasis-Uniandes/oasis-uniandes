@@ -1,4 +1,4 @@
-import { Hero, About, JoinUs, ProjectList, Lines, Partners} from '@components/Home/index'
+import { Hero, About, JoinUs, FeaturedProjects, Lines, Partners} from '@components/Home/index'
 
 function Home() {
   return (
@@ -6,7 +6,7 @@ function Home() {
     <Hero />
     <About />
     <JoinUs />
-    <ProjectList />
+    <FeaturedProjects />
     <Lines />
     <Partners />
     </>
