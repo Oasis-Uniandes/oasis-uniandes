@@ -8,6 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from '@views/Home';
+import { NavBar, Footer } from '@layout/index';
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -21,7 +22,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <NavBar />
     <RouterProvider router={router} />
+    <Footer />
   </React.StrictMode>
 );
 
