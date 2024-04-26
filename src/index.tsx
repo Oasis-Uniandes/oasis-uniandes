@@ -1,30 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { HashRouter } from 'react-router-dom';
+import App from '@components/App';
 import './index.css';
-import {
-  createHashRouter,
-  createRoutesFromElements,
-  Route,
-  RouterProvider,
-} from "react-router-dom";
-import Home from '@views/Home';
-import { NavBar, Footer } from '@layout/index';
 
-const router = createHashRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<Home />}>
-    </Route>
-  )
-);
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <NavBar />
-    <RouterProvider router={router} />
-    <Footer />
+    <HashRouter>
+      <App />
+    </HashRouter>
   </React.StrictMode>
 );
 
