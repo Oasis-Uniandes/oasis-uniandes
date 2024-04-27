@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
     return (
-        <footer className="footer footer-center p-10 bg-secondary text-white">
+        <footer className="footer footer-center p-10 bg-secondary text-white rounded-t-3xl">
         <aside>
             <Link to="/">
             <img src={logo} alt="Oasis Logo" className="w-32 h-32" />
