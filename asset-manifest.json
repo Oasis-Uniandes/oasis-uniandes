@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.10a21e28.css",
-    "main.js": "/static/js/main.9d07c036.js",
+    "main.css": "/static/css/main.b0807a76.css",
+    "main.js": "/static/js/main.f8bdcf2c.js",
+    "static/media/OASIS-LOGO_imagotipo-gradient-white.svg": "/static/media/OASIS-LOGO_imagotipo-gradient-white.7288743bda33fa607766638b355d0c52.svg",
+    "static/media/OASIS-LOGO_isologo-gradient-white-07.svg": "/static/media/OASIS-LOGO_isologo-gradient-white-07.f189e363b2cc09f619323db58f3a5589.svg",
     "index.html": "/index.html",
-    "main.10a21e28.css.map": "/static/css/main.10a21e28.css.map",
-    "main.9d07c036.js.map": "/static/js/main.9d07c036.js.map"
+    "main.b0807a76.css.map": "/static/css/main.b0807a76.css.map",
+    "main.f8bdcf2c.js.map": "/static/js/main.f8bdcf2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.10a21e28.css",
-    "static/js/main.9d07c036.js"
+    "static/css/main.b0807a76.css",
+    "static/js/main.f8bdcf2c.js"
   ]
 }
