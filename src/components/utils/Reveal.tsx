@@ -3,12 +3,14 @@ import { motion, useInView, useAnimation } from 'framer-motion';
 
 interface Props {
     children: React.ReactNode;
+    duration?: number;
     delay?: number;
     direction?: 'left' | 'right' | 'top' | 'bottom';
     range?: number;
+    className?: string;
 }
 
-const Reveal = ({ children, delay = 0, direction = 'bottom', range = 50}: Props) => {
+const Reveal = ({ children, duration = 0.5, delay = 0, direction = 'bottom', range = 50, className}: Props) => {
     const ref = useRef(null);
     const isInView = useInView(ref, {once: true});
 
@@ -21,7 +23,7 @@ const Reveal = ({ children, delay = 0, direction = 'bottom', range = 50}: Props)
     }, [isInView, mainControls]);
 
     return (
-        <motion.div
+        <motion.div className={className}
             ref={ref}
             variants={
                 {
@@ -33,7 +35,7 @@ const Reveal = ({ children, delay = 0, direction = 'bottom', range = 50}: Props)
             animate={mainControls}
             transition={
                 {
-                    duration: 0.5,
+                    duration: duration,
                     delay: delay
                 }
             }
