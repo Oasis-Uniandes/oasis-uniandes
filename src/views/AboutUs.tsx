@@ -1,6 +1,11 @@
+import { Counter, Title } from '@components/About/index';
+
 function AboutUs() {
   return (
-    <p>About Us</p>
+    <>
+    <Title />
+    <Counter />
+    </>
   );
 }
 
