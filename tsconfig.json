@@ -6,6 +6,7 @@
       "@views/*": ["./views/*"],
       "@assets/*": ["./assets/*"],
       "@layout/*": ["./components/layout/*"],
+      "@utils/*": ["./utils/*"],
     },
     "target": "es5",
     "lib": [
