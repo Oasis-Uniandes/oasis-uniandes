@@ -18,7 +18,7 @@ const Partners: React.FC = () => {
                     <a href="https://vivero.virtual.uniandes.edu.co" target="_blank" rel="noreferrer">
                         <img
                         src={logoVivi}
-                        className="transition-transform duration-300 transform hover:scale-110 h-32"
+                        className="transition-transform duration-300 transform hover:scale-110 h-32 relative -z-10"
                         alt="Logo Vivi"
                         />
                     </a>
@@ -27,7 +27,7 @@ const Partners: React.FC = () => {
                     <a href="https://colivri.uniandes.edu.co" target="_blank" rel="noreferrer">
                         <img
                         src={logoColivri}
-                        className="transition-transform duration-300 transform hover:scale-110 w-72"
+                        className="transition-transform duration-300 transform hover:scale-110 w-72 relative -z-10"
                         alt="Logo Colivri"
                         />
                     </a>
@@ -36,7 +36,7 @@ const Partners: React.FC = () => {
                     <a href="https://imagine.uniandes.edu.co" target="_blank" rel="noreferrer">
                         <img
                         src={logoImagine}
-                        className="transition-transform duration-300 transform hover:scale-110 h-24"
+                        className="transition-transform duration-300 transform hover:scale-110 h-24 relative -z-10"
                         alt="Logo Imagine"
                         />
                     </a>
@@ -45,7 +45,7 @@ const Partners: React.FC = () => {
                     <a href="https://sistemas.uniandes.edu.co" target="_blank" rel="noreferrer">
                         <img
                         src={logoDisc}
-                        className="transition-transform duration-300 transform hover:scale-110 w-72"
+                        className="transition-transform duration-300 transform hover:scale-110 w-72 relative -z-10"
                         alt="Logo Disc"
                         />
                     </a>
