@@ -8,13 +8,15 @@ interface PropsDiv extends Props{
     group?: boolean;
     controls: AnimationControls;
     ref?: any;
+    text?: boolean;
 }
 
-const RevealDiv: React.FC<PropsDiv> = ({ children, duration = 0.5, delay = 0.25, direction = 'bottom', range = 50, easing='linear', i=0 , controls, group, className, ref, initDelay=0}) => {
+const RevealDiv: React.FC<PropsDiv> = ({ children, duration = 0.5, delay = 0.25, direction = 'bottom', range = 50, easing='linear', i=0 , controls, group, text,className, ref, initDelay=0}) => {
     return (
+        
         <motion.div
         ref={group ? null : ref}
-        className={className}
+        className={text? className + ' flex' : className}
         custom={i}
         variants={
             {
