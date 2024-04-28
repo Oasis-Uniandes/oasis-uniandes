@@ -5,8 +5,7 @@ import logoColivri from '@assets/img/logos/colivri-logo_imagotipo-white-bg.svg';
 import logoImagine from '@assets/img/logos/LOGO-imagine.svg';
 import logoDisc from '@assets/img/logos/DISC.png';
 
-import Reveal from '@components/utils/Reveal';
-import RevealGroup from '@components/utils/RevealGroup';
+import { Reveal, RevealGroup } from '@components/utils/index';
 
 const Partners: React.FC = () => {
     return (
