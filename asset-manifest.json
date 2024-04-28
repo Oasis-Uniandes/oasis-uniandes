@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f19e7662.css",
-    "main.js": "/static/js/main.3ff5e6e6.js",
+    "main.css": "/static/css/main.97b28bce.css",
+    "main.js": "/static/js/main.db3ac658.js",
     "static/media/DISC.png": "/static/media/DISC.5f67731310de899d7f47.png",
     "static/media/LogoViVi_Fondos claros.png": "/static/media/LogoViVi_Fondos claros.b823f922103200dc3a5a.png",
     "static/media/LOGO-imagine.svg": "/static/media/LOGO-imagine.a6bd3faa9bf206f1a5ef8326e724ed77.svg",
@@ -9,11 +9,11 @@
     "static/media/OASIS-LOGO_isologo-gradient-white-07.svg": "/static/media/OASIS-LOGO_isologo-gradient-white-07.f189e363b2cc09f619323db58f3a5589.svg",
     "static/media/colivri-logo_imagotipo-white-bg.svg": "/static/media/colivri-logo_imagotipo-white-bg.8b57fabe42c3ad279303c02068e5cddd.svg",
     "index.html": "/index.html",
-    "main.f19e7662.css.map": "/static/css/main.f19e7662.css.map",
-    "main.3ff5e6e6.js.map": "/static/js/main.3ff5e6e6.js.map"
+    "main.97b28bce.css.map": "/static/css/main.97b28bce.css.map",
+    "main.db3ac658.js.map": "/static/js/main.db3ac658.js.map"
   },
   "entrypoints": [
-    "static/css/main.f19e7662.css",
-    "static/js/main.3ff5e6e6.js"
+    "static/css/main.97b28bce.css",
+    "static/js/main.db3ac658.js"
   ]
 }
