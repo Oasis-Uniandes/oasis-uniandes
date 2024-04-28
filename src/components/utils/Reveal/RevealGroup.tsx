@@ -23,7 +23,7 @@ const RevealGroup: React.FC<GroupProps> = ({ children, duration, delay, directio
     return (
         <div ref={ref} className={text? className + ' flex gap-1' : className}>
             {React.Children.map(children, (child, i) => (
-                RevealDiv({ children: child, duration, delay, direction, range, easing, i, controls, group: true, initDelay, text})
+                RevealDiv({ children: child, duration, delay, direction, range, easing, i, controls, group: true, initDelay})
             ))}
         </div>
     );

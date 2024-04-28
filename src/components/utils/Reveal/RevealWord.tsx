@@ -12,7 +12,7 @@ const RevealWord: React.FC<WordProps> = ({ children, className, duration, delay=
     const words = children.split(" ");
 
     return (
-        <RevealGroup text={true} className={className} duration={duration} delay={delay} direction={direction} range={range} easing={easing}>
+        <RevealGroup text={true} className={className + ' flex-wrap'} duration={duration} delay={delay} direction={direction} range={range} easing={easing}>
             {words.map((word: string, index: number) => (
                 <span key={index}>{word}</span>
             ))}
