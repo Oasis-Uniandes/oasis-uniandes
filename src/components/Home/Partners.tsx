@@ -5,7 +5,7 @@ import logoColivri from '@assets/img/logos/colivri-logo_imagotipo-white-bg.svg';
 import logoImagine from '@assets/img/logos/LOGO-imagine.svg';
 import logoDisc from '@assets/img/logos/DISC.png';
 
-import { Reveal, RevealGroup } from '@components/utils/index';
+import { Reveal, RevealGroup } from '@components/utils/Reveal/index';
 
 const Partners: React.FC = () => {
     return (
@@ -18,7 +18,7 @@ const Partners: React.FC = () => {
             </article>
             </Reveal>
             <ul>
-                <RevealGroup direction='right' className='grid grid-cols-1 items-center gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-x-10 lg:mx-0 lg:grid-cols-4 justify-items-center'>
+                <RevealGroup direction='right' easing='easeOut' initDelay={0.5} duration={0.7} className='grid grid-cols-1 items-center gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-x-10 lg:mx-0 lg:grid-cols-4 justify-items-center'>
                 <li>
                     <a href="https://vivero.virtual.uniandes.edu.co" target="_blank" rel="noreferrer">
                         <img
