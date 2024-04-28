@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '@assets/img/OASIS-LOGO_imagotipo-gradient-white.svg';
+import logo from '@assets/img/logos/OASIS-LOGO_imagotipo-gradient-white.svg';
 import { IconBrandInstagram, IconBrandTiktok, IconBrandLinkedin } from '@tabler/icons-react';
 import { Link } from 'react-router-dom';
 
@@ -28,6 +28,11 @@ const Footer: React.FC = () => {
             </a>
             </div>
         </nav>
+        <p className='text-secondary-content'>
+            Universidad de los Andes | Vigilada Mineducación<br/>
+            Reconocimiento como Universidad: Decreto 1297 del 30 de mayo de 1964.<br/>
+            Reconocimiento personería jurídica: Resolución 28 del 23 de febrero de 1949 Minjusticia.
+        </p>
         </footer>
     );
 };

@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import logo from '@assets/img/OASIS-LOGO_isologo-gradient-white-07.svg';
+import logo from '@assets/img/logos/OASIS-LOGO_isologo-gradient-white-07.svg';
 
 const NavBar: React.FC = () => {
     return (
         <div className="drawer mb-16 lg:mb-[84px]">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" /> 
         <div className="drawer-content flex flex-col">
-            <div className="flex justify-center w-full max-w-screen-xl navbar glass rounded-3xl fixed top-0 left-[50%] transform translate-x-[-50%] lg:mt-2">
+            <div className="flex justify-center container navbar glass rounded-3xl fixed top-0 left-[50%] transform translate-x-[-50%] lg:mt-2">
                 <div className="flex-none lg:hidden absolute left-0">
                     <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
