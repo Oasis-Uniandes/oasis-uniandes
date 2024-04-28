@@ -7,7 +7,7 @@ import logoDisc from '@assets/img/logos/DISC.png';
 
 const Partners: React.FC = () => {
     return (
-        <section className='container flex flex-col items-center gap-8 py-16'>
+        <section className='container flex flex-col items-center gap-12 py-24'>
             <article className='prose'>
                 <h1>Agradecimientos</h1>
             </article>
@@ -16,7 +16,7 @@ const Partners: React.FC = () => {
                     <a href="https://vivero.virtual.uniandes.edu.co" target="_blank" rel="noreferrer">
                         <img
                         src={logoVivi}
-                        className="transition-transform duration-300 transform hover:scale-110 h-32 relative -z-10"
+                        className="transition-transform duration-300 transform hover:scale-110 h-32"
                         alt="Logo Vivi"
                         />
                     </a>
@@ -25,7 +25,7 @@ const Partners: React.FC = () => {
                     <a href="https://colivri.uniandes.edu.co" target="_blank" rel="noreferrer">
                         <img
                         src={logoColivri}
-                        className="transition-transform duration-300 transform hover:scale-110 w-72 relative -z-10"
+                        className="transition-transform duration-300 transform hover:scale-110 w-72"
                         alt="Logo Colivri"
                         />
                     </a>
@@ -34,7 +34,7 @@ const Partners: React.FC = () => {
                     <a href="https://imagine.uniandes.edu.co" target="_blank" rel="noreferrer">
                         <img
                         src={logoImagine}
-                        className="transition-transform duration-300 transform hover:scale-110 h-24 relative -z-10"
+                        className="transition-transform duration-300 transform hover:scale-110 h-24"
                         alt="Logo Imagine"
                         />
                     </a>
@@ -43,7 +43,7 @@ const Partners: React.FC = () => {
                     <a href="https://sistemas.uniandes.edu.co" target="_blank" rel="noreferrer">
                         <img
                         src={logoDisc}
-                        className="transition-transform duration-300 transform hover:scale-110 w-72 relative -z-10"
+                        className="transition-transform duration-300 transform hover:scale-110 w-72"
                         alt="Logo Disc"
                         />
                     </a>
