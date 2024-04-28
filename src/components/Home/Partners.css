@@ -1,9 +1,0 @@
-
-img.bw {
-    filter : grayscale(100%);
-    transition : 0.5s;
-}
-
-img.bw:hover {
-    filter : grayscale(0%);
-}

@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './Partners.css';
-
 import logoVivi from '@assets/img/logos/LogoViVi_Fondos claros.png';
 import logoColivri from '@assets/img/logos/colivri-logo_imagotipo-white-bg.svg';
 import logoImagine from '@assets/img/logos/LOGO-imagine.svg';

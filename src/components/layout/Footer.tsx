@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '@assets/img/logos/OASIS-LOGO_imagotipo-gradient-white.svg';
-import { IconBrandInstagram, IconBrandTiktok, IconBrandLinkedin } from '@tabler/icons-react';
+import { IconBrandInstagram, IconBrandTiktok, IconBrandLinkedin, IconMail } from '@tabler/icons-react';
 import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
@@ -17,6 +17,9 @@ const Footer: React.FC = () => {
         </aside>
         <nav>
             <div className="grid grid-flow-col gap-4">
+            <a href="mailto:oasis@uniandes.edu.co" className='hover:text-primary active:text-accent'>
+                    <IconMail size={32} />
+            </a>
             <a href="https://www.instagram.com/oasis.uniandes/" target="_blank" rel="noreferrer" className='hover:text-primary active:text-accent'>
                 <IconBrandInstagram size={32} />
             </a>
@@ -27,7 +30,9 @@ const Footer: React.FC = () => {
                 <IconBrandLinkedin size={32} />
             </a>
             </div>
+
         </nav>
+
         <p className='text-secondary-content'>
             Universidad de los Andes | Vigilada Mineducación<br/>
             Reconocimiento como Universidad: Decreto 1297 del 30 de mayo de 1964.<br/>
