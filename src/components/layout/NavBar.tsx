@@ -20,7 +20,7 @@ const NavBar: React.FC = () => {
                 </div>
                 <div className="flex-none hidden lg:block">
                     <ul className="menu menu-horizontal">
-                    <li><NavLink to="/">Inicio</NavLink></li>
+                    <li className='mr-2'><NavLink to="/">Inicio</NavLink></li>
                     <li><NavLink to="/nosotros">Nosotros</NavLink></li>
                     </ul>
                 </div>
@@ -29,8 +29,8 @@ const NavBar: React.FC = () => {
         <div className="drawer-side">
             <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label> 
             <ul className="menu p-4 w-80 min-h-full bg-base-200 glass">
-            <li><NavLink to="/">Inicio</NavLink></li>
-            <li><NavLink to="/nosotros">Nosotros</NavLink></li>
+            <li className='mb-2'><NavLink to="/">Inicio</NavLink></li>
+            <li className='mb-2'><NavLink to="/nosotros">Nosotros</NavLink></li>
             </ul>
         </div>
         </div>
