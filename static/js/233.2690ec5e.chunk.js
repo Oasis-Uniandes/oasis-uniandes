@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkOasis_Website=self.webpackChunkOasis_Website||[]).push([[233],{5233:(s,e,a)=>{s.exports=a.p+"static/media/juanjo.a792d11c905fcd7da402.jpg"}}]);

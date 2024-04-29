@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkOasis_Website=self.webpackChunkOasis_Website||[]).push([[716],{8716:(e,s,b)=>{e.exports=b.p+"static/media/abel.14b27b4cb07c6ebef31c.png"}}]);

@@ -1,3 +1,27 @@
+/*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/
+
+/*!
+* TW Elements
+* Version: FREE 2.0.0
+* 
+* Copyright: Material Design for Bootstrap
+* https://mdbootstrap.com/
+* 
+* Read the license: https://tw-elements.com/license/
+*
+*
+* Documentation: https://tw-elements.com/
+*
+* Support: https://mdbootstrap.com/support/cat/twe
+*
+* Contact: tailwind@mdbootstrap.com
+* 
+*/
+
 /**
  * @license @tabler/icons-react v3.2.0 - MIT
  *
