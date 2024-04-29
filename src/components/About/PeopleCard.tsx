@@ -48,7 +48,7 @@ const PeopleCard: React.FC<PeopleCardProps> = ({ name, title, image, url, roles,
             <p className="text-secondary/50">{title}</p>
             <ul className="flex justify-center gap-2 mt-2 flex-wrap">
             {roles?.map((role, index) => (
-                <li key={index} className="badge badge-outline">{role}</li>
+                <li key={index} className="badge badge-outline hover:badge-primary hover:!text-white">{role}</li>
             ))}
             </ul>
         </div>
