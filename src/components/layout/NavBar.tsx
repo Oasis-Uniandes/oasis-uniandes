@@ -4,7 +4,7 @@ import logo from '@assets/img/logos/OASIS-LOGO_isologo-gradient-white-07.svg';
 
 const NavBar: React.FC = () => {
     return (
-        <div className="drawer mb-16 lg:mb-[84px]">
+        <div className="drawer">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" /> 
         <div className="drawer-content flex flex-col">
             <div className="flex justify-center container navbar glass rounded-3xl fixed top-0 left-[50%] transform translate-x-[-50%] lg:mt-2 z-20">

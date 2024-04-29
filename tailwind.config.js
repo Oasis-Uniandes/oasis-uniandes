@@ -14,6 +14,9 @@ module.exports = withMT({
         xl: '5rem',
         '2xl': '6rem',
       },
+      screens: {
+        ...defaultTheme.screens,
+      },
     },
     extend: {
       fontFamily: {
