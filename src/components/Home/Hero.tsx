@@ -17,7 +17,7 @@ export function Carousel1() {
   return (
     <Carousel
       transition={{ duration: 2 }}
-      className="rounded-xl hero h-dvh"
+      className="rounded-3xl hero h-dvh"
       placeholder={undefined}
       autoplay={true}
       loop={true} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
