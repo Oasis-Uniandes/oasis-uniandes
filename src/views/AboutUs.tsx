@@ -1,10 +1,11 @@
-import { Counter, Leaders, Title } from '@components/About/index';
+import { Counter, Leaders, Team, Title } from '@components/About/index';
 
 function AboutUs() {
   return (
     <>
     <Title />
     <Leaders />
+    <Team />
     <Counter />
     </>
   );
