@@ -21,6 +21,7 @@ export function Carousel1() {
       placeholder={undefined}
       autoplay={true}
       loop={true} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+      style={{ marginTop: '-6%' }}
     >
       <img
       // Reemplazar las imagenes con imagenes de Oasis
