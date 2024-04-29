@@ -1,9 +1,10 @@
-import { Counter, Title } from '@components/About/index';
+import { Counter, Leaders, Title } from '@components/About/index';
 
 function AboutUs() {
   return (
     <>
     <Title />
+    <Leaders />
     <Counter />
     </>
   );
