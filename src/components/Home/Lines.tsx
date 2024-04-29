@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useInView, useAnimation } from 'framer-motion';
-import { RevealWord } from '@components/utils/Reveal';
+import { RevealWord } from '@utils/Reveal';
 
 import talleresImg from '@assets/img/talleres.jpg';
 import metaversoImg from '@assets/img/metaverso.webp';
