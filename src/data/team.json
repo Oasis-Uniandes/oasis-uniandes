@@ -1,0 +1,57 @@
+[
+    {
+        "name": "David Duarte"
+    },
+    {
+        "name": "Alexandra Zambrano"
+    },
+    {
+        "name": "Daniel Bernal"
+    },
+    {
+        "name": "Dylan Zambrano"
+    },
+    {
+        "name": "Felipe Aristizabal"
+    },
+    {
+        "name": "Jacobo"
+    },
+    {
+        "name": "Juan Arango"
+    },
+    {
+        "name": "Karen Posos"
+    },
+    {
+        "name": "Laura Zuluaga"
+    },
+    {
+        "name": "Maria Paula Murillo"
+    },
+    {
+        "name": "Maria Camila Jaramillo",
+        "roles": ["Diseñadora Web"]
+    },
+    {
+        "name": "Nicolas Rueda"
+    },
+    {
+        "name": "Paula G"
+    },
+    {
+        "name": "Santiago Rodriguez",
+        "roles": ["Desarrollador Web"]
+    },
+    {
+        "name": "Shadith Perez",
+        "roles": ["Diseñadora Web","Desarrolladora Web"]
+    },
+    {
+        "name": "Abel Arismendy",
+        "title": "Ingeniería de Sistemas",
+        "roles": ["Desarrollador Web"],
+        "url": "https://abel.arismendy.co",
+        "image": "abel.png"
+    }
+]
