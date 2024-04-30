@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkOasis_Website=self.webpackChunkOasis_Website||[]).push([[310],{9310:(e,s,i)=>{e.exports=i.p+"static/media/DISC-BLACK.b694773c7816ecde1565.png"}}]);
