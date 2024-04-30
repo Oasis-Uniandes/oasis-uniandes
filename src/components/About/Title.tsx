@@ -9,19 +9,21 @@ const Title: React.FC = () => {
     });
 
     const backgroundSize = useTransform(scrollYProgress, [0, 1], ['100%', '150%']);
+    const backgroundPositionY = useTransform(scrollYProgress, [0, 1], ['50%', '-180%']);
 
     return (
-        <motion.div className="hero h-[500px] sm:h-svh rounded-3xl bg-secondary"
+        <motion.div className="hero h-[440px] sm:max-h-[500px] md:h-[80vh] md:max-h-[540px] lg:max-h-svh lg:h-svh rounded-3xl bg-secondary"
         style={
             {
                 backgroundImage: `url(${teamImg})`,
                 backgroundSize: backgroundSize,
                 backgroundRepeat: 'no-repeat',
+                backgroundPositionY: backgroundPositionY,
             }
         }
         >
             <div className="hero-overlay bg-gradient-to-t from-secondary to-transparent rounded-3xl"></div>
-            <div className="text-center prose !prose-invert flex flex-col justify-end h-full py-20 items-center">
+            <div className="text-center prose !prose-invert flex flex-col justify-end h-full py-8 lg:py-20 items-center">
                 <h1 className='text-5xl mb-8'>
                     <RevealWord className='justify-center'>¿Quienes Somos?</RevealWord>
                 </h1>
