@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b4ad56c6.css",
-    "main.js": "/static/js/main.066d0753.js",
+    "main.js": "/static/js/main.a93fcb21.js",
     "static/js/716.166300f4.chunk.js": "/static/js/716.166300f4.chunk.js",
     "static/js/60.bc990b10.chunk.js": "/static/js/60.bc990b10.chunk.js",
     "static/js/233.2690ec5e.chunk.js": "/static/js/233.2690ec5e.chunk.js",
@@ -15,16 +15,16 @@
     "static/media/juanjo.jpg": "/static/media/juanjo.a792d11c905fcd7da402.jpg",
     "static/media/DISC.png": "/static/media/DISC.5f67731310de899d7f47.png",
     "static/media/LogoViVi_Fondos claros.png": "/static/media/LogoViVi_Fondos claros.b823f922103200dc3a5a.png",
-    "static/media/LOGO-imagine.svg": "/static/media/LOGO-imagine.a6bd3faa9bf206f1a5ef8326e724ed77.svg",
-    "static/media/OASIS-LOGO_imagotipo-gradient-white.svg": "/static/media/OASIS-LOGO_imagotipo-gradient-white.7288743bda33fa607766638b355d0c52.svg",
-    "static/media/OASIS-LOGO_isologo-gradient-white-07.svg": "/static/media/OASIS-LOGO_isologo-gradient-white-07.f189e363b2cc09f619323db58f3a5589.svg",
-    "static/media/colivri-logo_imagotipo-white-bg.svg": "/static/media/colivri-logo_imagotipo-white-bg.8b57fabe42c3ad279303c02068e5cddd.svg",
+    "static/media/LOGO-imagine.svg": "/static/media/LOGO-imagine.70d6af52d8be67ba81eb9e6f24e6dd3b.svg",
+    "static/media/OASIS-LOGO_imagotipo-gradient-white.svg": "/static/media/OASIS-LOGO_imagotipo-gradient-white.a9cc91e49dc9026dc04ef1c48ea07058.svg",
+    "static/media/OASIS-LOGO_isologo-gradient-white-07.svg": "/static/media/OASIS-LOGO_isologo-gradient-white-07.b31dd94a66aa0939cf71b7d1e6c43814.svg",
+    "static/media/colivri-logo_imagotipo-white-bg.svg": "/static/media/colivri-logo_imagotipo-white-bg.61dd9413013e12e6ba4edb11c8739f01.svg",
     "index.html": "/index.html",
     "main.b4ad56c6.css.map": "/static/css/main.b4ad56c6.css.map",
-    "main.066d0753.js.map": "/static/js/main.066d0753.js.map"
+    "main.a93fcb21.js.map": "/static/js/main.a93fcb21.js.map"
   },
   "entrypoints": [
     "static/css/main.b4ad56c6.css",
-    "static/js/main.066d0753.js"
+    "static/js/main.a93fcb21.js"
   ]
 }
