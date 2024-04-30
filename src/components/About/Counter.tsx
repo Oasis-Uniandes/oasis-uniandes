@@ -30,7 +30,7 @@ const Counter: React.FC = () => {
                 <Reveal className="divider text-3xl w-full" delay={0.2} easing="easeOut">
                 <span>Miembros</span>
                 </Reveal>
-                <RevealGroup className='flex gap-4 flex-wrap'>
+                <RevealGroup className='flex gap-4 flex-wrap justify-center'>
                 <div className="stats shadow-xl">
                     <div className="stat">
                         <div className="stat-title">Nuestros Aprendices</div>
