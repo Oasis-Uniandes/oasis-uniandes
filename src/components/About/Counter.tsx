@@ -26,12 +26,12 @@ const Counter: React.FC = () => {
     return (
         <div className="container">
             
-            <div className="flex gap-4 w-full justify-center py-24 flex-wrap">
+            <div className="flex gap-4 w-full justify-center pt-8 pb-16 flex-wrap">
                 <Reveal className="divider text-3xl w-full" delay={0.2} easing="easeOut">
                 <span>Miembros</span>
                 </Reveal>
                 <RevealGroup className='flex gap-4 flex-wrap justify-center'>
-                <div className="stats shadow-xl">
+                <div className="stats shadow-xl hover:scale-110 hover:shadow-2xl">
                     <div className="stat">
                         <div className="stat-title">Nuestros Aprendices</div>
                         <span className="stat-value countdown">
@@ -40,7 +40,7 @@ const Counter: React.FC = () => {
                         <div className="stat-desc">Aprendices de desarrollo</div>
                     </div>
                 </div>
-                <div className="stats shadow-xl">
+                <div className="stats shadow-xl hover:scale-110 hover:shadow-2xl">
                     <div className="stat">
                         <div className="stat-title">Nuestros Miembros</div>
                         <span className="stat-value countdown">

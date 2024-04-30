@@ -1,3 +1,4 @@
 import Title from './Title';
+import Carousel from './Carousel';
 
-export { Title };
+export { Title, Carousel };
