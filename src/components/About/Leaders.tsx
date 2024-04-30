@@ -8,7 +8,7 @@ const Leaders: React.FC = () => {
             <Reveal className="divider text-3xl w-full" delay={0.2} easing="easeOut">
             <span>Líderes</span>
             </Reveal>
-            <RevealGroup className="flex gap-8 gap-x-16 flex-wrap justify-center" delay={0.1} duration={0.35} easing="easeOut">
+            <RevealGroup className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-y-8 gap-x-16" delay={0.1} duration={0.35} easing="easeOut">
             <PeopleCard size="lg" name="Angel Abel Arismendy" title="Ingeniería de Sistemas" roles={["Líder",  "Monitor de Colivri", "Desarrollador Web", "Diseñador gráfico"]} image="abel.png" url="https://abel.arismendy.co"
             ring/>
             <PeopleCard size="lg" name="Juan Esteban Rodriguez" title="Ingeniería de Sistemas" roles={["Líder", "Monitor de Vivero Virtual"]} image="juan.png" ring/>
