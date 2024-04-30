@@ -20,9 +20,9 @@ const NavBar: React.FC = () => {
                 </div>
                 <div className="flex-none hidden lg:block">
                     <ul className="menu menu-horizontal">
-                    <li className='mr-2'><NavLink to="/">Inicio</NavLink></li>
-                    <li><NavLink to="/nosotros">Nosotros</NavLink></li>
-                    <li><NavLink to="/talleres">Talleres</NavLink></li>
+                    <li className='ml-2'><NavLink to="/">Inicio</NavLink></li>
+                    <li className='ml-2'><NavLink to="/nosotros">Nosotros</NavLink></li>
+                    <li className='ml-2'><NavLink to="/talleres">Talleres</NavLink></li>
                     </ul>
                 </div>
             </div>
