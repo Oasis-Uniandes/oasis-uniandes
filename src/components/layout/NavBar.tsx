@@ -22,6 +22,7 @@ const NavBar: React.FC = () => {
                     <ul className="menu menu-horizontal">
                     <li className='mr-2'><NavLink to="/">Inicio</NavLink></li>
                     <li><NavLink to="/nosotros">Nosotros</NavLink></li>
+                    <li><NavLink to="/talleres">Talleres</NavLink></li>
                     </ul>
                 </div>
             </div>
@@ -31,6 +32,7 @@ const NavBar: React.FC = () => {
             <ul className="menu p-4 w-80 min-h-full bg-base-200 glass">
                 <li className='mb-2'><NavLink to="/">Inicio</NavLink></li>
                 <li className='mb-2'><NavLink to="/nosotros">Nosotros</NavLink></li>
+                <li><NavLink to="/talleres">Talleres</NavLink></li>
             </ul>
         </div>
         </div>

@@ -1,4 +1,4 @@
-import { Home, AboutUs } from "@views/index";
+import { Home, AboutUs, Workshops } from "@views/index";
 import { NavBar, Footer } from "@layout/index";
 import { Routes, Route } from "react-router-dom";
 import ScrollToTop from "@utils/ScrollToTop";
@@ -11,6 +11,7 @@ const App = () => {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/nosotros" element={<AboutUs />} />
+            <Route path="/talleres" element={<Workshops />} />
         </Routes>
         <Footer />
         </>

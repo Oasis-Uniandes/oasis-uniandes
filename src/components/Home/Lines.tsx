@@ -71,7 +71,7 @@ const Lines: React.FC = () => {
                     <motion.figure variants={item} whileHover={{ scale: 1.05 }} drag dragSnapToOrigin whileDrag={{ scale: 1.1 }} dragConstraints={constraintsRef} className="relative mask mask-circle self-start cursor-pointer w-[300px] h-[300px]">
                         <img src={talleresImg} alt="Linea de Acción" className='w-[300px] h-[300px] object-cover'/>
                         <figcaption className="absolute inset-0 flex items-end justify-center text-white text-xl font-bold bg-gradient-to-t from-secondary to-transparent px-16 py-10 text-center to-50%">
-                        <Link to="/" className='hover:text-primary active:text-accent bg-secondary rounded-full p-2 hover:bg-white transition-all'>
+                        <Link to="/talleres" className='hover:text-primary active:text-accent bg-secondary rounded-full p-2 hover:bg-white transition-all'>
                             Talleres de Desarrollo
                         </Link>
                         </figcaption>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import getImage from '@utils/GetImage';
 interface PeopleCardProps {
     name: string;
     title?: string;
@@ -14,20 +15,12 @@ const PeopleCard: React.FC<PeopleCardProps> = ({ name, title, image, url, roles,
 
     const avatarClass = ring ? 'rounded-full ring-4 ring-primary' : 'rounded-full';
 
-    async function getImageByName(name:string|undefined) {
-        let imageModule;
-        try {
-          imageModule = await import(`@assets/img/people/${name}`);
-        } catch (err) {
-          console.error(`No se pudo importar la imagen ${name}:`, err);
-        }
-        return imageModule?.default;
-      }
-
     const [imageSrc, setImageSrc] = useState(null);
 
     useEffect(() => {
-        getImageByName(image).then(setImageSrc);
+        if (image) {
+            getImage(`people/${image}`).then(setImageSrc);
+        }
     }, [image]);
         
     return (
