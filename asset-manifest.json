@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b88e7593.css",
-    "main.js": "/static/js/main.c3449494.js",
+    "main.css": "/static/css/main.fe6249a2.css",
+    "main.js": "/static/js/main.8b3462dd.js",
     "static/js/716.166300f4.chunk.js": "/static/js/716.166300f4.chunk.js",
     "static/js/60.bc990b10.chunk.js": "/static/js/60.bc990b10.chunk.js",
     "static/js/233.2690ec5e.chunk.js": "/static/js/233.2690ec5e.chunk.js",
@@ -20,11 +20,11 @@
     "static/media/OASIS-LOGO_isologo-gradient-white-07.svg": "/static/media/OASIS-LOGO_isologo-gradient-white-07.b31dd94a66aa0939cf71b7d1e6c43814.svg",
     "static/media/colivri-logo_imagotipo-white-bg.svg": "/static/media/colivri-logo_imagotipo-white-bg.61dd9413013e12e6ba4edb11c8739f01.svg",
     "index.html": "/index.html",
-    "main.b88e7593.css.map": "/static/css/main.b88e7593.css.map",
-    "main.c3449494.js.map": "/static/js/main.c3449494.js.map"
+    "main.fe6249a2.css.map": "/static/css/main.fe6249a2.css.map",
+    "main.8b3462dd.js.map": "/static/js/main.8b3462dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.b88e7593.css",
-    "static/js/main.c3449494.js"
+    "static/css/main.fe6249a2.css",
+    "static/js/main.8b3462dd.js"
   ]
 }
