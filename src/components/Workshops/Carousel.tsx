@@ -2,32 +2,35 @@ import React, { useEffect, useState } from 'react';
 import { IconChevronLeft, IconChevronRight } from '@tabler/icons-react';
 
 const Carousel: React.FC = () => {
-    const [scrollX, setScrollX] = useState(0);
+    const [marginLeft, setMarginLeft] = useState(0);
 
     const imageWidth = 500;
+    const carousel = document.querySelector('.carousel') as HTMLElement;
+    const referencia = document.querySelector('#referencia') as HTMLElement;
+    const containerWidth = referencia?.clientWidth || 0;
+    const maxMarginLeft = carouselWidth - containerWidth;
 
     const handleScroll = (direction: string) => {
-        const carousel = document.querySelector('.carousel');
-        const carouselWidth = carousel?.scrollWidth || 0;
-        const containerWidth = carousel?.clientWidth || 0;
-        const maxScrollX = carouselWidth - containerWidth;
-
+        console.log(containerWidth, maxMarginLeft, marginLeft)
         if (direction === 'left') {
-            setScrollX(prev => Math.max(prev - imageWidth, 0));
+            setMarginLeft(prev => Math.max(prev - imageWidth, 0));
         } else {
-            setScrollX(prev => Math.min(prev + imageWidth, maxScrollX));
+            setMarginLeft(prev => Math.min(prev + imageWidth, maxMarginLeft));
         }
     }
 
     useEffect(() => {
-        const carousel = document.querySelector('.carousel');
-        carousel?.scrollTo({ left: scrollX, behavior: 'smooth' });
-    }, [scrollX]);
+        if (carousel) {
+            carousel.style.marginLeft = `-${marginLeft}px`;
+        }
+    }, [marginLeft, carousel]);
 
         return (
+        <>
+        <div className="container" id='referencia'></div>
         <div className="container flex py-8">
-            <button className="prev" onClick={() => handleScroll('left')}><IconChevronLeft/></button>
-            <div className="carousel space-x-4 rounded-3xl">
+            <button className="prev z-10" onClick={() => handleScroll('left')}><IconChevronLeft/></button>
+            <div className="carousel space-x-4 rounded-3xl overflow-visible">
                 <div className="carousel-item">
                     <img src={`https://via.placeholder.com/${imageWidth}`} alt="Placeholder" className='rounded-3xl'/>
                 </div>
@@ -50,6 +53,7 @@ const Carousel: React.FC = () => {
             </div>
             <button className="next" onClick={() => handleScroll('right')}><IconChevronRight/></button>
         </div>
+        </>
     );
 }
 
