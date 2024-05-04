@@ -54,7 +54,7 @@ const Carousel: React.FC = () => {
                 </div>
             </div>
             <div style={{width: `${imageWidth}px`}}></div>
-            <button className="next hover:text-primary text-secondary active:text-white transition-colors duration-200" onClick={() => handleScroll('right')}><IconChevronRight size={48} /></button>
+            <button className="next hover:text-primary text-secondary active:text-white transition-colors duration-200 z-10" onClick={() => handleScroll('right')}><IconChevronRight size={48} /></button>
         </div>
         </>
     );
