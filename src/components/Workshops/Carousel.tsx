@@ -9,14 +9,16 @@ const Carousel: React.FC = () => {
     const referencia = document.querySelector('#referencia') as HTMLElement;
     const carouselWidth = carousel?.scrollWidth || 0;
     const containerWidth = referencia?.clientWidth || 0;
+
+    const spacing = 16;
     const maxMarginLeft = carouselWidth - containerWidth + imageWidth;
 
     const handleScroll = (direction: string) => {
         console.log(containerWidth, maxMarginLeft, marginLeft)
         if (direction === 'left') {
-            setMarginLeft(prev => Math.max(prev - imageWidth, 0));
+            setMarginLeft(prev => Math.max(prev - (imageWidth+spacing), 0));
         } else {
-            setMarginLeft(prev => Math.min(prev + imageWidth, maxMarginLeft));
+            setMarginLeft(prev => Math.min(prev + imageWidth+spacing, maxMarginLeft));
         }
     }
 
@@ -51,7 +53,7 @@ const Carousel: React.FC = () => {
                     <img src={`https://via.placeholder.com/${imageWidth}`} alt="Placeholder" className='rounded-3xl'/>
                 </div>
             </div>
-            <div className={`min-w-[${imageWidth}px]`}></div>
+            <div style={{width: `${imageWidth}px`}}></div>
             <button className="next hover:text-primary text-secondary active:text-white transition-colors duration-200" onClick={() => handleScroll('right')}><IconChevronRight size={48} /></button>
         </div>
         </>
