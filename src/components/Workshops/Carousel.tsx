@@ -22,11 +22,16 @@ const Carousel: React.FC = () => {
     const maxMarginLeft = carouselWidth - containerWidth + imageWidth;
 
     const handleScroll = (direction: string) => {
-        console.log(containerWidth, maxMarginLeft, marginLeft)
         if (direction === 'left') {
             setMarginLeft(prev => Math.max(prev - (imageWidth+spacing), 0));
         } else {
-            setMarginLeft(prev => Math.min(prev + imageWidth+spacing, maxMarginLeft));
+            setMarginLeft(prev => {
+                if (prev + imageWidth+spacing > maxMarginLeft) {
+                    return 0;
+                } else {
+                    return Math.min(prev + imageWidth+spacing, maxMarginLeft);
+                }
+            });
         }
     }
 
