@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkOasis_Website=self.webpackChunkOasis_Website||[]).push([[192],{7192:(s,e,t)=>{s.exports=t.p+"static/media/t5.fffd13855d6420cf212a.webp"}}]);

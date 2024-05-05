@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkOasis_Website=self.webpackChunkOasis_Website||[]).push([[908],{5908:(e,s,t)=>{e.exports=t.p+"static/media/t1.83c7e29f9e6f6215dd33.webp"}}]);
