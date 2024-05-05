@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkOasis_Website=self.webpackChunkOasis_Website||[]).push([[585],{6585:(e,s,a)=>{e.exports=a.p+"static/media/talleres_hero.96cbdf5c01627669eba3.jpg"}}]);
