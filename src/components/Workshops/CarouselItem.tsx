@@ -16,7 +16,7 @@ const CarouselItem: React.FC<CarouselItemProps> = ({ image, title, description }
 
     return (
         <div className="carousel-item">
-            <img src={imageSrc} alt={title} className='rounded-3xl h-[500px] object-contain' />
+            <img src={imageSrc} alt={title} className='rounded-3xl h-[240px] sm:h-[296px] md:h-[360px] xl:h-[500px] object-contain' />
         </div>
     );
 }
