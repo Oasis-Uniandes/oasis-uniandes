@@ -27,8 +27,16 @@ const Carousel: React.FC<CarouselProps> = ({ items }) => {
                 }
                 setMarginLeft(prev => prev + width);
                 setCurrent(prev => prev + 1);
+            } else {
+                if (current <= 0 ){
+                    setMarginLeft(0);
+                    setCurrent(0);
+                    return;
+                }
+                const newWidth = children[current - 1].clientWidth + spacing;
+                setMarginLeft(prev => prev - newWidth);
+                setCurrent(prev => prev - 1);
             }
-            console.log(current, children[current].offsetWidth, marginLeft);
         }
     }
 
