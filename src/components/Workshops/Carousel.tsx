@@ -18,27 +18,18 @@ const Carousel: React.FC<CarouselProps> = ({ items }) => {
         if (carouselRef.current) {
             const node = carouselRef.current;
             const children = Array.from(node.children) as HTMLElement[];
-            const allWidths = children.map(child => child.clientWidth + spacing);
-            console.log(allWidths);
-
-            const width = children[current].clientWidth + spacing;
             if (direction === 'right') {
                 if (current >= children.length - 1 ){
-                    setMarginLeft(0);
-                    setCurrent(0);
+                    handleGoTo(0);
                     return;
                 }
-                setMarginLeft(prev => prev + width);
-                setCurrent(prev => prev + 1);
+                handleGoTo(current + 1);
             } else {
                 if (current <= 0 ){
-                    setMarginLeft(0);
-                    setCurrent(0);
+                    handleGoTo(0);
                     return;
                 }
-                const newWidth = children[current - 1].clientWidth + spacing;
-                setMarginLeft(prev => prev - newWidth);
-                setCurrent(prev => prev - 1);
+                handleGoTo(current - 1);
             }
         }
     }
@@ -56,16 +47,16 @@ const Carousel: React.FC<CarouselProps> = ({ items }) => {
                 return acc;
             }, 0);
 
-            setMarginLeft(totalMargin);
+            carouselRef.current.style.marginLeft = `-${totalMargin}px`;
             setCurrent(index);
         }
     }
 
     useEffect(() => {
         if (carouselRef.current) {
-            carouselRef.current.style.marginLeft = `-${marginLeft}px`;
+            handleGoTo(current);
         }
-    }, [marginLeft]);
+    }, [current]);
 
     return (
         <>
@@ -81,7 +72,7 @@ const Carousel: React.FC<CarouselProps> = ({ items }) => {
             </div>
             <div className="indicator-container flex justify-center space-x-2 items-center h-6">
                 {items.map((_, index) => (
-                    <button key={index} className={`transition-all w-4 h-4 mask mask-circle bg-secondary hover:bg-primary active:bg-accent ${current === index ? 'h-6 w-6 bg-primary' : 'hover:w-5 hover:h-5'}`} onClick={() => handleGoTo(index)}></button>
+                    <button key={index} className={`transition-all w-4 h-4 mask mask-circle bg-secondary hover:bg-primary active:bg-accent ${current === index ? 'h-6 w-6 !bg-primary' : 'hover:w-5 hover:h-5'}`} onClick={() => handleGoTo(index)}></button>
                 ))}
             </div>
         </>
