@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.21511242.css",
-    "main.js": "/static/js/main.7cc3810d.js",
+    "main.css": "/static/css/main.1335c3f6.css",
+    "main.js": "/static/js/main.07c0ae7d.js",
     "static/js/310.d8524db7.chunk.js": "/static/js/310.d8524db7.chunk.js",
     "static/js/951.f562730a.chunk.js": "/static/js/951.f562730a.chunk.js",
     "static/js/223.ef7e063b.chunk.js": "/static/js/223.ef7e063b.chunk.js",
@@ -45,11 +45,11 @@
     "static/media/colivri-logo_imagotipo-white-bg.svg": "/static/media/colivri-logo_imagotipo-white-bg.61dd9413013e12e6ba4edb11c8739f01.svg",
     "static/media/colivri-logo_imagotipo-black.svg": "/static/media/colivri-logo_imagotipo-black.0e2c3be64f9c6f69e1d6.svg",
     "index.html": "/index.html",
-    "main.21511242.css.map": "/static/css/main.21511242.css.map",
-    "main.7cc3810d.js.map": "/static/js/main.7cc3810d.js.map"
+    "main.1335c3f6.css.map": "/static/css/main.1335c3f6.css.map",
+    "main.07c0ae7d.js.map": "/static/js/main.07c0ae7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.21511242.css",
-    "static/js/main.7cc3810d.js"
+    "static/css/main.1335c3f6.css",
+    "static/js/main.07c0ae7d.js"
   ]
 }
