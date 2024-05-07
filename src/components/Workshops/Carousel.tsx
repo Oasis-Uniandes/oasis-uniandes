@@ -81,7 +81,7 @@ const Carousel: React.FC<CarouselProps> = ({ items }) => {
             </div>
             <div className="indicator-container flex justify-center space-x-2 items-center h-6">
                 {items.map((_, index) => (
-                    <button key={index} className={`transition-all w-4 h-4 mask mask-circle hover:w-5 hover:h-5 bg-secondary hover:bg-primary active:bg-accent ${current === index ? 'h-6 w-6 bg-primary' : ''}`} onClick={() => handleGoTo(index)}></button>
+                    <button key={index} className={`transition-all w-4 h-4 mask mask-circle bg-secondary hover:bg-primary active:bg-accent ${current === index ? 'h-6 w-6 bg-primary' : 'hover:w-5 hover:h-5'}`} onClick={() => handleGoTo(index)}></button>
                 ))}
             </div>
         </>
