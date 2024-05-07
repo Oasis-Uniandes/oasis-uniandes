@@ -18,6 +18,9 @@ const Carousel: React.FC<CarouselProps> = ({ items }) => {
         if (carouselRef.current) {
             const node = carouselRef.current;
             const children = Array.from(node.children) as HTMLElement[];
+            const allWidths = children.map(child => child.clientWidth + spacing);
+            console.log(allWidths);
+
             const width = children[current].clientWidth + spacing;
             if (direction === 'right') {
                 if (current >= children.length - 1 ){
@@ -40,6 +43,24 @@ const Carousel: React.FC<CarouselProps> = ({ items }) => {
         }
     }
 
+    const handleGoTo = (index: number) => {
+        if (carouselRef.current) {
+            const node = carouselRef.current;
+            const children = Array.from(node.children) as HTMLElement[];
+            const allWidths = children.map(child => child.clientWidth + spacing);
+
+            const totalMargin = allWidths.reduce((acc, curr, i) => {
+                if (i < index) {
+                    return acc + curr;
+                }
+                return acc;
+            }, 0);
+
+            setMarginLeft(totalMargin);
+            setCurrent(index);
+        }
+    }
+
     useEffect(() => {
         if (carouselRef.current) {
             carouselRef.current.style.marginLeft = `-${marginLeft}px`;
@@ -57,6 +78,11 @@ const Carousel: React.FC<CarouselProps> = ({ items }) => {
                 </div>
                 <div style={{ width: '500px' }}></div>
                 <button className="next z-10 hover:text-primary text-secondary active:text-accent transition-colors duration-2 bg-white bg-opacity-40 mask mask-circle hover:bg-opacity-100 backdrop-blur" onClick={() => handleScroll('right')}><IconChevronRight size={48} /></button>
+            </div>
+            <div className="indicator-container flex justify-center space-x-2 items-center h-6">
+                {items.map((_, index) => (
+                    <button key={index} className={`transition-all w-4 h-4 mask mask-circle hover:w-5 hover:h-5 bg-secondary hover:bg-primary active:bg-accent ${current === index ? 'h-6 w-6 bg-primary' : ''}`} onClick={() => handleGoTo(index)}></button>
+                ))}
             </div>
         </>
     );
