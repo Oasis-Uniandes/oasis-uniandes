@@ -1,6 +1,6 @@
 {
   "name": "Oasis Website",
-  "homepage": "https://oasis-uniandes.github.io",
+  "homepage": "https://oasis-uniandes.github.io/oasis-uniandes",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
