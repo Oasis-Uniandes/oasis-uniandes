@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkOasis_Website=self.webpackChunkOasis_Website||[]).push([[269],{2269:(e,s,i)=>{e.exports=i.p+"static/media/colivri-logo_imagotipo-black.87c54e17e92450a57e17.svg"}}]);

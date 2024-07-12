@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkOasis_Website=self.webpackChunkOasis_Website||[]).push([[223],{1223:(e,s,i)=>{e.exports=i.p+"static/media/OASIS-LOGO_imagotipo-gradient-white.a9cc91e49dc9026dc04e.svg"}}]);
